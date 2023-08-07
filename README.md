@@ -1,5 +1,17 @@
 # ladspa_dsp setup for system wide dsp on linux
 ## connected as the tape monitor loop on an AV amp to provide room correction
+## running on a WYSE 5020 thin client (cost approx £35) with 2 USB sound cards (cost around £8 each)
+## audio processing uses approx 8% cpu 
+
+```
+chromecast audio --> AV amp cd input
+AV amp tape out --> usb sound card 1 line input
+usb sound card 1 --> wyse usb
+usb sound card 2 --> wyse usb
+usb sound card 2 --> AV amp LD input
+AV amp rec out set to "CD"
+AV amp input "LD" selected
+```
 
 ## tested on debian bookworm
 
